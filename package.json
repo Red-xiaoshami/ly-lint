@@ -1,0 +1,16 @@
+{
+  "name": "root",
+  "private": true,
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^7.0.0",
+    "lerna": "^4.0.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+
+  "scripts": {
+    "prepare": "husky install"
+  }
+}
