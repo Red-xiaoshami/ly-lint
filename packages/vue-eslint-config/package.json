@@ -1,6 +1,6 @@
 {
   "name": "@ly/vue-eslint-config",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "vue eslint",
   "keywords": [
     "vue",
@@ -19,7 +19,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmjs.com"
+    "access": "public"
   },
   "repository": {
     "type": "git",
