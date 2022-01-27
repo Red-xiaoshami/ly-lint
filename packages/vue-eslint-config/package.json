@@ -19,7 +19,7 @@
     "lib"
   ],
   "publishConfig": {
-    "access": "public"
+    "registry": "https://registry.npmjs.com"
   },
   "repository": {
     "type": "git",
@@ -30,5 +30,6 @@
   },
   "dependencies": {
     "eslint-plugin-vue": "^8.4.0"
-  }
+  },
+  "gitHead": "124bde36fcedc3e2ebd06ff6bb44fd1e84a9336c"
 }
