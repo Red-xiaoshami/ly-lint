@@ -1,7 +1,7 @@
-'use strict';
+"use strict";
 
-const vueEslintConfig = require('..');
+const vueEslintConfig = require("..");
 
-describe('@ly/vue-eslint-config', () => {
-    it('needs tests');
+describe("@lyzd/vue-eslint-config", () => {
+  it("needs tests");
 });
