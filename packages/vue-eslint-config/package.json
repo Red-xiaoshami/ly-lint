@@ -1,5 +1,5 @@
 {
-  "name": "@lyzd/vue-eslint-config",
+  "name": "@ly-zd/vue-eslint-config",
   "version": "1.0.6",
   "description": "vue eslint",
   "keywords": [
@@ -31,5 +31,5 @@
   "dependencies": {
     "eslint-plugin-vue": "^8.4.0"
   },
-  "gitHead": "22906a96f2e632d5cb6bdb30c6cb2d7a8cbb223d"
+  "gitHead": "3826ef7cb9030c63f7d4c83cddf6ea854098f892"
 }

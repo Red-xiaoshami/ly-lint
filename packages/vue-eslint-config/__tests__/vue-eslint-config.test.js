@@ -2,6 +2,6 @@
 
 const vueEslintConfig = require("..");
 
-describe("@lyzd/vue-eslint-config", () => {
+describe("@ly-zd/vue-eslint-config", () => {
   it("needs tests");
 });

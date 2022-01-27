@@ -1,11 +1,11 @@
-# `@lyzd/vue-eslint-config`
+# `@ly-zd/vue-eslint-config`
 
 > TODO: description
 
 ## Usage
 
 ```
-const vueEslintConfig = require('@lyzd/vue-eslint-config');
+const vueEslintConfig = require('@ly-zd/vue-eslint-config');
 
 // TODO: DEMONSTRATE API
 ```
