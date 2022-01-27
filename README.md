@@ -9,11 +9,12 @@
 
    需在根目录下的 package.json 配置:
    "workspaces": [
-      "packages/*"
+   "packages/*"
    ]
    然后直接使用 yarn 下载依赖
 
-3. 安装依赖, -W是workspace的意思
-    yarn add -W -D eslint
-4. lerna 发布失败，git tag提交成功，但是包发布失败
-   https://github.com/huruji/blog/issues/67    
+3. 安装依赖, -W 是 workspace 的意思
+   yarn add -W -D eslint
+   单独给某个包安装：$ lerna add <package>[@version] [--dev] [--exact] [--peer]
+4. lerna 发布失败，git tag 提交成功，但是包发布失败
+   https://github.com/huruji/blog/issues/67
