@@ -2,6 +2,6 @@
 
 const eslintConfig = require('..');
 
-describe('@ly/eslint-config', () => {
+describe('@ly-zd/eslint-config', () => {
     it('needs tests');
 });

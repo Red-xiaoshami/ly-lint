@@ -28,7 +28,7 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "3826ef7cb9030c63f7d4c83cddf6ea854098f892",
+  "gitHead": "b7c9723f9e8e786493f6f6d38428ffadc16b8fa8",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.10.1",
     "@typescript-eslint/parser": "^5.10.1",

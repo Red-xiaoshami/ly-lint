@@ -1,7 +1,11 @@
 {
-  "name": "@ly/eslint-config",
-  "version": "1.0.1",
-  "description": "> TODO: description",
+  "name": "@ly-zd/eslint-config",
+  "version": "1.0.0",
+  "description": "eslint configs",
+  "keywords": [
+    "eslint",
+    "configs"
+  ],
   "author": "1184624439@qq.com <1184624439@qq.com>",
   "homepage": "https://github.com/Red-xiaoshami/ly-lint#readme",
   "license": "ISC",

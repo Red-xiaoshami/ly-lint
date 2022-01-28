@@ -1,11 +1,11 @@
-# `@ly/eslint-config`
+# `@ly-zd/eslint-config`
 
 > TODO: description
 
 ## Usage
 
 ```
-const eslintConfig = require('@ly/eslint-config');
+const eslintConfig = require('@ly-zd/eslint-config');
 
 // TODO: DEMONSTRATE API
 ```
