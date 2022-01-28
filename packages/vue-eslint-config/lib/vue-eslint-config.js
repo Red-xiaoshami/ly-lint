@@ -1,7 +1,7 @@
-'use strict';
+"use strict";
 
 module.exports = vueEslintConfig;
 
 function vueEslintConfig() {
-    // TODO
+  // TODO
 }
