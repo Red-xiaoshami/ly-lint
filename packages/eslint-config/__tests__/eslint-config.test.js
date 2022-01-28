@@ -1,7 +1,7 @@
-'use strict';
+"use strict";
 
-const eslintConfig = require('..');
+const eslintConfig = require("..");
 
-describe('@ly-zd/eslint-config', () => {
-    it('needs tests');
+describe("@ly-zd/eslint-config", () => {
+  it("needs tests");
 });

@@ -9,7 +9,7 @@
   "author": "1184624439@qq.com <1184624439@qq.com>",
   "homepage": "https://github.com/Red-xiaoshami/ly-lint#readme",
   "license": "ISC",
-  "main": "lib/eslint-config.js",
+  "main": "lib/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -29,5 +29,15 @@
   },
   "bugs": {
     "url": "https://github.com/Red-xiaoshami/ly-lint/issues"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "@typescript-eslint/parser": "^5.10.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.7.0",
+    "eslint-plugin-vue": "^8.4.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5"
   }
 }
