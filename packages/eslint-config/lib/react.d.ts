@@ -2,7 +2,6 @@ declare const _default: {
     env: {
         browser: boolean;
         es2021: boolean;
-        amd: boolean;
         node: boolean;
     };
     extends: string[];
@@ -10,6 +9,15 @@ declare const _default: {
         ecmaVersion: number;
         parser: string;
         sourceType: string;
+        ecmaFeatures: {
+            jsx: boolean;
+        };
+    };
+    settings: {
+        react: {
+            pragma: string;
+            version: string;
+        };
     };
     plugins: string[];
     rules: {
@@ -18,4 +26,4 @@ declare const _default: {
         })[];
     };
 };
-export = _default;
+export default _default;

@@ -14,8 +14,8 @@
     "packages/*"
   ],
   "scripts": {
+    "build": "lerna run --parallel build",
     "prepare": "husky install",
-    "tsc": "tsc",
-    "publish": "lerna run tsc && lerna publish"
+    "publish": "lerna run --parallel build && lerna publish"
   }
 }

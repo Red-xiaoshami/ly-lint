@@ -15,6 +15,7 @@
 
 3. 安装依赖, -W 是 workspace 的意思
    yarn add -W -D eslint
-   单独给某个包安装：$ lerna add <package>[@version] [--dev] [--exact] [--peer]
+   单独给某个包安装：$ lerna workspace packagesname add <package>[@version]
 4. lerna 发布失败，git tag 提交成功，但是包发布失败
    https://github.com/huruji/blog/issues/67
+5. react没有做测试   

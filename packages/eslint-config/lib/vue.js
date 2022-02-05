@@ -1,4 +1,6 @@
-export default {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = {
     env: {
         browser: true,
         es2021: true,
@@ -9,15 +11,13 @@ export default {
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
         "plugin:vue/vue3-recommended",
-        "plugin:prettier/recommended",
-        "prettier",
     ],
     parserOptions: {
         ecmaVersion: 13,
         parser: "@typescript-eslint/parser",
         sourceType: "module",
     },
-    plugins: ["vue", "@typescript-eslint", "prettier"],
+    plugins: ["vue", "@typescript-eslint"],
     rules: {
         "vue/multi-word-component-names": [
             0,
@@ -27,3 +27,4 @@ export default {
         ],
     },
 };
+//# sourceMappingURL=vue.js.map

@@ -25,7 +25,8 @@
     "url": "git+https://github.com/Red-xiaoshami/ly-lint.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "tsc --build tsconfig.build.json"
   },
   "bugs": {
     "url": "https://github.com/Red-xiaoshami/ly-lint/issues"
@@ -33,9 +34,13 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.10.1",
     "@typescript-eslint/parser": "^5.10.1",
+    "@vue/eslint-config-prettier": "^7.0.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^8.7.0",
-    "eslint-plugin-vue": "^8.4.0"
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-vue": "^8.4.0",
+    "prettier": "^2.5.1"
   },
   "devDependencies": {
     "typescript": "^4.5.5"

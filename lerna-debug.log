@@ -1,7 +1,13 @@
-36 error Error: Command failed with exit code 128: git tag @ly/vue-eslint-config@1.0.2 -m @ly/vue-eslint-config@1.0.2
-36 error fatal: tag '@ly/vue-eslint-config@1.0.2' already exists
-36 error     at makeError (/Users/liuning/Desktop/project/ly-lint/node_modules/execa/lib/error.js:60:11)
-36 error     at handlePromise (/Users/liuning/Desktop/project/ly-lint/node_modules/execa/index.js:118:26)
-36 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
-36 error     at async Promise.all (index 0)
-36 error     at async Promise.all (index 0)
+0 silly argv {
+0 silly argv   _: [ 'add' ],
+0 silly argv   scope: '@ly-zd/styleLint-config',
+0 silly argv   globs: [],
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': 'lerna',
+0 silly argv   pkg: 'stylelint-config-stand'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath /Users/wangyuechao/work/lyzd/project/ly-lint
+3 info versioning independent
+4 error HttpErrorGeneral: 404 Not Found - GET https://registry.yarnpkg.com/stylelint-config-stand - Not found
+4 error     at /Users/wangyuechao/work/lyzd/project/ly-lint/node_modules/npm-registry-fetch/check-response.js:95:15
