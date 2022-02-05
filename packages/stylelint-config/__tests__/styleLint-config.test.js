@@ -2,6 +2,6 @@
 
 const stylelintConfig = require('..');
 
-describe('@ly-zd/styleLint-config', () => {
+describe('@ly-zd/stylelint-config', () => {
     it('needs tests');
 });

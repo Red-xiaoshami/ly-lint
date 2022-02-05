@@ -1,11 +1,12 @@
 {
   "name": "@ly-zd/stylelint-config",
-  "version": "1.0.5",
-  "description": "> TODO: description",
+  "version": "1.0.0",
+  "description": "样式规范",
   "keywords": [
+    "stylelint",
     "style"
   ],
-  "author": "1184624439@qq.com <1184624439@qq.com>",
+  "author": "wangyuechao <wangyuechao@lyzdfintech.com>",
   "homepage": "https://github.com/Red-xiaoshami/ly-lint#readme",
   "license": "ISC",
   "main": "lib/index.js",
@@ -17,7 +18,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.yarnpkg.com/"
+    "access": "public"
   },
   "repository": {
     "type": "git",
@@ -33,6 +34,5 @@
   "dependencies": {
     "stylelint": "^14.3.0",
     "stylelint-config-standard": "^24.0.0"
-  },
-  "gitHead": "e22144ef64e7234f437f9aa32f3d45b06d8443ce"
+  }
 }
