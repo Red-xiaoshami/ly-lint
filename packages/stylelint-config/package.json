@@ -5,7 +5,7 @@
   "keywords": [
     "style"
   ],
-  "author": "wangyuechao <wangyuechao@lyzdfintech.com>",
+  "author": "1184624439@qq.com <1184624439@qq.com>",
   "homepage": "https://github.com/Red-xiaoshami/ly-lint#readme",
   "license": "ISC",
   "main": "lib/index.js",
@@ -24,7 +24,8 @@
     "url": "git+https://github.com/Red-xiaoshami/ly-lint.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "tsc --build tsconfig.build.json"
   },
   "bugs": {
     "url": "https://github.com/Red-xiaoshami/ly-lint/issues"
