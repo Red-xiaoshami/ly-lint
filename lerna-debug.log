@@ -1,7 +1,0 @@
-36 error Error: Command failed with exit code 128: git tag @ly/vue-eslint-config@1.0.2 -m @ly/vue-eslint-config@1.0.2
-36 error fatal: tag '@ly/vue-eslint-config@1.0.2' already exists
-36 error     at makeError (/Users/liuning/Desktop/project/ly-lint/node_modules/execa/lib/error.js:60:11)
-36 error     at handlePromise (/Users/liuning/Desktop/project/ly-lint/node_modules/execa/index.js:118:26)
-36 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
-36 error     at async Promise.all (index 0)
-36 error     at async Promise.all (index 0)
