@@ -1,12 +1,13 @@
 {
     "extends": "../../tsconfig.json",
     "compilerOptions": {
-      "outDir": "./dist",
-      "rootDir": "./"
+      "rootDir": "src",
+      "outDir": "dist",
+      "sourceMap": false,
+      "composite": true
     },
-    "files": ["./src/vue.ts"],
-    "exclude": [
-      "src/**/*"
-    ]
+    "include": [
+       "src/**/*.ts" 
+    ],
 }
    

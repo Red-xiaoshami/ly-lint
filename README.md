@@ -18,3 +18,4 @@
    单独给某个包安装：$ lerna add <package>[@version] [--dev] [--exact] [--peer]
 4. lerna 发布失败，git tag 提交成功，但是包发布失败
    https://github.com/huruji/blog/issues/67
+5. tsconfig.ts 子包需要添加 "composite": true
