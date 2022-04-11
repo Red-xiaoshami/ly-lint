@@ -1,21 +1,6 @@
 {
-<<<<<<< HEAD
-    "extends": "../../tsconfig.json",
-    "compilerOptions": {
-      "rootDir": "src",
-      "outDir": "dist",
-      "sourceMap": false,
-      "composite": true
-    },
-    "include": [
-       "src/**/*.ts" 
-    ],
-}
-   
-=======
   "extends": "../../tsconfig.json",
   "include": [
     "src/**/*"
   ]
 }
->>>>>>> 4ad320c95d268d99079d9cdf0ab4bbd746518c89
