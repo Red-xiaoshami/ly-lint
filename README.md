@@ -18,3 +18,4 @@
    单独给某个包安装：$ yarn workspace packagesname add <package>[@version]
 4. lerna 发布失败，git tag 提交成功，但是包发布失败
    https://github.com/huruji/blog/issues/67
+5. yarn run publish
