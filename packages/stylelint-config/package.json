@@ -1,6 +1,6 @@
 {
   "name": "@ly-zd/stylelint-config",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "样式规范",
   "keywords": [
     "stylelint",
