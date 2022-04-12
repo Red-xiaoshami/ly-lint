@@ -15,7 +15,9 @@
 
 3. 安装依赖, -W 是 workspace 的意思
    yarn add -W -D eslint
-   单独给某个包安装：$ yarn workspace packagesname add <package>[@version]
+   单独给某个包安装：
+   yarn workspace packagesname add <package>[@version] 或者
+   lerna add eslint-config-prettier --scope @ly-zd/eslint-config
 4. lerna 发布失败，git tag 提交成功，但是包发布失败
    https://github.com/huruji/blog/issues/67
 5. yarn run publish

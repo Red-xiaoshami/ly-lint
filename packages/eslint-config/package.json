@@ -42,7 +42,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-vue": "^8.4.0",
-    "prettier": "^2.5.1"
+    "prettier": "^2.6.2"
   },
   "devDependencies": {
     "typescript": "^4.5.5"
