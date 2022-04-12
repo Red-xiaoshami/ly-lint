@@ -10,7 +10,7 @@ export = {
         "plugin:@typescript-eslint/recommended",
         "plugin:vue/vue3-recommended",
         "plugin:prettier/recommended",
-        "prettier",
+        // "prettier",
     ],
     parserOptions: {
         ecmaVersion: 13,
