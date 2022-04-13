@@ -2,8 +2,6 @@ declare const _default: {
     env: {
         browser: boolean;
         es2021: boolean;
-        amd: boolean;
-        node: boolean;
     };
     extends: string[];
     parserOptions: {
@@ -12,10 +10,6 @@ declare const _default: {
         sourceType: string;
     };
     plugins: string[];
-    rules: {
-        "vue/multi-word-component-names": (number | {
-            ignores: any[];
-        })[];
-    };
+    rules: {};
 };
 export = _default;

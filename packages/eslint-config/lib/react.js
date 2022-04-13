@@ -15,15 +15,15 @@ exports.default = {
         ecmaVersion: 13,
         parser: "@typescript-eslint/parser",
         sourceType: "module",
-        "ecmaFeatures": {
-            jsx: true
-        }
+        ecmaFeatures: {
+            jsx: true,
+        },
     },
     settings: {
-        "react": {
-            "pragma": "React",
-            "version": "detect"
-        }
+        react: {
+            pragma: "React",
+            version: "detect",
+        },
     },
     plugins: ["vue", "@typescript-eslint"],
     rules: {
