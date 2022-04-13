@@ -32,6 +32,8 @@
     "url": "https://github.com/Red-xiaoshami/ly-lint/issues"
   },
   "dependencies": {
+    "eslint": "^8.13.0",
+    "prettier": "^2.6.2",
     "stylelint": "^14.3.0",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-standard": "^24.0.0"

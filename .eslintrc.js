@@ -1,4 +1,4 @@
-export = {
+module.exports = {
   env: {
     browser: true,
     es2021: true,
@@ -6,7 +6,6 @@ export = {
   extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:vue/vue3-recommended",
     "plugin:prettier/recommended",
   ],
   parserOptions: {
@@ -14,6 +13,6 @@ export = {
     parser: "@typescript-eslint/parser",
     sourceType: "module",
   },
-  plugins: ["vue", "@typescript-eslint"],
+  plugins: ["@typescript-eslint"],
   rules: {},
 };

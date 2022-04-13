@@ -1,4 +1,4 @@
-import vueEslint from "./vue"
-import reactEslint from "./react"
+import vueEslint from "./vue";
+import reactEslint from "./react";
 
-export default { vueEslint, reactEslint }
+export default { vueEslint, reactEslint };
