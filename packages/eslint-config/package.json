@@ -15,8 +15,7 @@
     "test": "__tests__"
   },
   "files": [
-    "lib",
-    "vue.js"
+    "lib"
   ],
   "publishConfig": {
     "access": "public"
